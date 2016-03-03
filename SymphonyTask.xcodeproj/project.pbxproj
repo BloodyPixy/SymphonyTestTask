@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		BF8DF65E1C8830DE0017379D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF65D1C8830DE0017379D /* main.m */; };
 		BF8DF6611C8830DE0017379D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6601C8830DE0017379D /* AppDelegate.m */; };
-		BF8DF6641C8830DE0017379D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6631C8830DE0017379D /* ViewController.m */; };
+		BF8DF6641C8830DE0017379D /* SymphonyTaskMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6631C8830DE0017379D /* SymphonyTaskMainController.m */; };
 		BF8DF6671C8830DE0017379D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8DF6651C8830DE0017379D /* Main.storyboard */; };
 		BF8DF6691C8830DE0017379D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8DF6681C8830DE0017379D /* Assets.xcassets */; };
 		BF8DF66C1C8830DE0017379D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8DF66A1C8830DE0017379D /* LaunchScreen.storyboard */; };
 		BF8DF6771C8830DE0017379D /* SymphonyTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6761C8830DE0017379D /* SymphonyTaskTests.m */; };
 		BF8DF6821C8830DE0017379D /* SymphonyTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6811C8830DE0017379D /* SymphonyTaskUITests.m */; };
+		BF8DF6951C88317E0017379D /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6941C88317E0017379D /* NetworkManager.m */; };
+		BF8DF6981C8836200017379D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6971C8836200017379D /* User.m */; };
+		BF8DF69B1C88362C0017379D /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF69A1C88362C0017379D /* Post.m */; };
+		BFB9FAB41C887BF800A24B2F /* NetworkManagerTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9FAB31C887BF800A24B2F /* NetworkManagerTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,8 @@
 		BF8DF65D1C8830DE0017379D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF8DF65F1C8830DE0017379D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF8DF6601C8830DE0017379D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF8DF6621C8830DE0017379D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF8DF6631C8830DE0017379D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF8DF6621C8830DE0017379D /* SymphonyTaskMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymphonyTaskMainController.h; sourceTree = "<group>"; };
+		BF8DF6631C8830DE0017379D /* SymphonyTaskMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymphonyTaskMainController.m; sourceTree = "<group>"; };
 		BF8DF6661C8830DE0017379D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF8DF6681C8830DE0017379D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8DF66B1C8830DE0017379D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,13 @@
 		BF8DF67D1C8830DE0017379D /* SymphonyTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymphonyTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8DF6811C8830DE0017379D /* SymphonyTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymphonyTaskUITests.m; sourceTree = "<group>"; };
 		BF8DF6831C8830DE0017379D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8DF6931C88317E0017379D /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		BF8DF6941C88317E0017379D /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		BF8DF6961C8836200017379D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Models/User.h; sourceTree = "<group>"; };
+		BF8DF6971C8836200017379D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
+		BF8DF6991C88362C0017379D /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		BF8DF69A1C88362C0017379D /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		BFB9FAB31C887BF800A24B2F /* NetworkManagerTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManagerTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +112,11 @@
 		BF8DF65B1C8830DE0017379D /* SymphonyTask */ = {
 			isa = PBXGroup;
 			children = (
-				BF8DF65F1C8830DE0017379D /* AppDelegate.h */,
-				BF8DF6601C8830DE0017379D /* AppDelegate.m */,
-				BF8DF6621C8830DE0017379D /* ViewController.h */,
-				BF8DF6631C8830DE0017379D /* ViewController.m */,
-				BF8DF6651C8830DE0017379D /* Main.storyboard */,
+				BFB9FAB21C887BCB00A24B2F /* Tests */,
+				BF8DF68F1C8831250017379D /* NetworkManager */,
+				BF8DF6901C8831380017379D /* Models */,
+				BF8DF6911C8831430017379D /* Controllers */,
+				BF8DF6921C88314D0017379D /* UI */,
 				BF8DF6681C8830DE0017379D /* Assets.xcassets */,
 				BF8DF66A1C8830DE0017379D /* LaunchScreen.storyboard */,
 				BF8DF66D1C8830DE0017379D /* Info.plist */,
@@ -117,6 +128,8 @@
 		BF8DF65C1C8830DE0017379D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF8DF65F1C8830DE0017379D /* AppDelegate.h */,
+				BF8DF6601C8830DE0017379D /* AppDelegate.m */,
 				BF8DF65D1C8830DE0017379D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +151,51 @@
 				BF8DF6831C8830DE0017379D /* Info.plist */,
 			);
 			path = SymphonyTaskUITests;
+			sourceTree = "<group>";
+		};
+		BF8DF68F1C8831250017379D /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DF6931C88317E0017379D /* NetworkManager.h */,
+				BF8DF6941C88317E0017379D /* NetworkManager.m */,
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+		BF8DF6901C8831380017379D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DF6961C8836200017379D /* User.h */,
+				BF8DF6971C8836200017379D /* User.m */,
+				BF8DF6991C88362C0017379D /* Post.h */,
+				BF8DF69A1C88362C0017379D /* Post.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BF8DF6911C8831430017379D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DF6621C8830DE0017379D /* SymphonyTaskMainController.h */,
+				BF8DF6631C8830DE0017379D /* SymphonyTaskMainController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BF8DF6921C88314D0017379D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DF6651C8830DE0017379D /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BFB9FAB21C887BCB00A24B2F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9FAB31C887BF800A24B2F /* NetworkManagerTestClass.m */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8DF6641C8830DE0017379D /* ViewController.m in Sources */,
+				BF8DF6981C8836200017379D /* User.m in Sources */,
+				BF8DF69B1C88362C0017379D /* Post.m in Sources */,
+				BF8DF6951C88317E0017379D /* NetworkManager.m in Sources */,
+				BF8DF6641C8830DE0017379D /* SymphonyTaskMainController.m in Sources */,
 				BF8DF6611C8830DE0017379D /* AppDelegate.m in Sources */,
 				BF8DF65E1C8830DE0017379D /* main.m in Sources */,
 			);
@@ -284,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8DF6771C8830DE0017379D /* SymphonyTaskTests.m in Sources */,
+				BFB9FAB41C887BF800A24B2F /* NetworkManagerTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +563,7 @@
 				BF8DF6881C8830DE0017379D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF8DF6891C8830DE0017379D /* Build configuration list for PBXNativeTarget "SymphonyTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +572,7 @@
 				BF8DF68B1C8830DE0017379D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF8DF68C1C8830DE0017379D /* Build configuration list for PBXNativeTarget "SymphonyTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +581,7 @@
 				BF8DF68E1C8830DE0017379D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
