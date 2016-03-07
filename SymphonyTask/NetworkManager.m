@@ -10,6 +10,10 @@
 #import "User.h"
 #import "Post.h"
 
+static NSString* const kBaseUrl = @"jsonplaceholder.typicode.com";
+static NSString* const kUsersPath = @"/users";
+static NSString* const kPostsPath = @"/posts";
+
 @interface NetworkManager ()
 
 @property (nonatomic, strong) NSURLSession *session;
@@ -17,11 +21,6 @@
 @end
 
 @implementation NetworkManager
-
-NSString* const kBaseUrl = @"jsonplaceholder.typicode.com";
-NSString* const kUsersPath = @"/users";
-NSString* const kPostsPath = @"/posts";
-
 
 #pragma mark - Instancetypes
 
@@ -172,7 +171,7 @@ NSString* const kPostsPath = @"/posts";
              }
              
              //after we have all users and their posts, we call completion
-             completion([NSArray arrayWithArray:usersArray]);
+             completion(usersArray);
          }];
      }];
 }

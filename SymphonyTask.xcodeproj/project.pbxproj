@@ -18,7 +18,6 @@
 		BF8DF6951C88317E0017379D /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6941C88317E0017379D /* NetworkManager.m */; };
 		BF8DF6981C8836200017379D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF6971C8836200017379D /* User.m */; };
 		BF8DF69B1C88362C0017379D /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DF69A1C88362C0017379D /* Post.m */; };
-		BFB9FAB41C887BF800A24B2F /* NetworkManagerTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9FAB31C887BF800A24B2F /* NetworkManagerTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		BF8DF6971C8836200017379D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
 		BF8DF6991C88362C0017379D /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		BF8DF69A1C88362C0017379D /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
-		BFB9FAB31C887BF800A24B2F /* NetworkManagerTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManagerTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 		BF8DF65B1C8830DE0017379D /* SymphonyTask */ = {
 			isa = PBXGroup;
 			children = (
-				BFB9FAB21C887BCB00A24B2F /* Tests */,
 				BF8DF68F1C8831250017379D /* NetworkManager */,
 				BF8DF6901C8831380017379D /* Models */,
 				BF8DF6911C8831430017379D /* Controllers */,
@@ -188,14 +185,6 @@
 				BF8DF6651C8830DE0017379D /* Main.storyboard */,
 			);
 			name = UI;
-			sourceTree = "<group>";
-		};
-		BFB9FAB21C887BCB00A24B2F /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BFB9FAB31C887BF800A24B2F /* NetworkManagerTestClass.m */,
-			);
-			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8DF6771C8830DE0017379D /* SymphonyTaskTests.m in Sources */,
-				BFB9FAB41C887BF800A24B2F /* NetworkManagerTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

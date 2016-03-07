@@ -9,9 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Post.h"
 
-@interface User : NSObject
-/*<NSCopying, NSCoding>*/
-{
+@interface User : NSObject{
     NSMutableDictionary *data;
 }
 
